@@ -25,8 +25,8 @@ function move() {
     cloudFour.style.left = 20 + incrementer * -0.15 + '%'
     cloudFive.style.bottom = 60 + incrementer * 0.2 + '%'
     cloudFive.style.left = 60 + incrementer * 0.16 + '%'
-    javascript.style.marginRight = 55 + incrementer * -2.2 + '%'
-    react.style.marginRight = 26 + incrementer * -1.5 + '%'
-    graphql.style.marginRight = 32 + incrementer * -1 + '%'
+    javascript.style.left = 20 + incrementer * -2.2 + '%'
+    react.style.left = 26 + incrementer * -1.5 + '%'
+    graphql.style.left = 32 + incrementer * -1 + '%'
 }
 window.addEventListener('scroll', move)
